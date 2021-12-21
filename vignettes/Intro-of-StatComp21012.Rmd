@@ -13,8 +13,8 @@ vignette: >
 
 # Model：
 
-The goal of many studies in biomedical and social science is to estimate the causal effects of a binary treatment $\mathbf{Treat}$ on an outcome $\mathbf{Y}$ from the observational data. However, observational datas like electronic health records (EHR) are of with misclassification problem and selection bias problem. To overcome this issue under some assumption, we proposed a adjusted method and combined it with the most commonly used methods for estimating Average Treatment Effect, like IPTW, Double Robust, logit regression and spline regression. We compared our methods with the naive
-IPTW method in simulation study. Results shows our methods are good.
+The goal of many studies in biomedical and social science is to estimate the causal effects of a binary treatment $\mathbf{Treat}$ on an outcome $\mathbf{Y}$ from the observational data. However, observational datas like electronic health records (EHR) are often with misclassification problem and selection bias problem. To overcome this issue, we proposed a adjusted method and combined it with the most commonly used methods for estimating Average Treatment Effect, like IPTW, Double Robust, logit regression and spline regression. We compared our methods with the naive
+IPTW method in simulation study. Results shows our methods are better.
 
 
 The selection bias parameter $S$ and The misclassification parameter $P$ are defined as followed：
@@ -45,7 +45,6 @@ $$
 
 ## Simulation Set
 
-  gama0 = -1; gama1 = 0.01; gama2 = 0.1; gama3 = 0.05; gamat = 0.5
 $$
 \beta_0 = -1, \ \ \beta_1 = 0.02,\ \ \beta_2 = 0.2,\ \  \beta_3=0.1
 $$
