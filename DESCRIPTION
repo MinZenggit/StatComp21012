@@ -14,3 +14,5 @@ LinkingTo: Rcpp
 RoxygenNote: 7.1.2
 Encoding: UTF-8
 VignetteBuilder: knitr
+URL: http://github.com/MinZenggit/StatComp21012
+BugReports: http://github.com/MinZenggit/StatComp21012/issues
